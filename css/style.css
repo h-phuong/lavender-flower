@@ -1,0 +1,1700 @@
+/* =====================================================
+   1. CÀI ĐẶT CHUNG
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #3d3150;
+    background-color: #ffffff;
+}
+
+
+/* Màu chữ chung */
+
+p {
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   2. NAVBAR
+===================================================== */
+
+.navbar {
+    padding: 15px 0;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo i {
+    font-size: 30px;
+    color: #8b6fbd;
+}
+
+.logo strong {
+    display: block;
+    color: #5c4389;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.logo small {
+    display: block;
+    color: #8b7c99;
+    font-size: 11px;
+}
+
+
+/* Menu */
+
+.nav-link {
+    color: #4f455a !important;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #8b6fbd !important;
+}
+
+
+/* Icon bên phải */
+
+.header-icons {
+    display: flex;
+    gap: 18px;
+    margin-left: 25px;
+}
+
+.header-icons i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #5c4389;
+}
+
+
+/* =====================================================
+   3. HERO / BANNER
+===================================================== */
+
+.hero {
+    background: linear-gradient(
+        90deg,
+        #f4effc,
+        #eee5fa
+    );
+
+    padding: 70px 0;
+}
+
+
+/* Phần chữ */
+
+.hero-small-title {
+    color: #8b6fbd;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #503a70;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 500px;
+    color: #6e6279;
+    margin-bottom: 25px;
+}
+
+
+/* Ảnh banner */
+
+.hero-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+/* Nút Lavender */
+
+.btn-lavender {
+    background-color: #8062b2;
+    color: white;
+    border-radius: 25px;
+    padding: 11px 25px;
+    border: none;
+}
+
+.btn-lavender:hover {
+    background-color: #684a99;
+    color: white;
+}
+
+
+/* =====================================================
+   4. TIÊU ĐỀ SECTION
+===================================================== */
+
+.featured-products {
+    padding: 70px 0;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section-title span {
+    width: 45px;
+    height: 2px;
+    background-color: #b49ad9;
+}
+
+.section-title h2 {
+    font-family: Georgia, serif;
+    color: #503a70;
+    text-transform: uppercase;
+    font-size: 27px;
+    margin: 0;
+}
+
+.section-description {
+    text-align: center;
+    color: #81758c;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+/* =====================================================
+   5. PRODUCT CARD
+===================================================== */
+
+.product-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 20px rgba(80, 58, 112, 0.08);
+
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(80, 58, 112, 0.15);
+}
+
+
+/* Ảnh sản phẩm */
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* Nội dung */
+
+.product-info {
+    padding: 18px;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    color: #514260;
+    margin-bottom: 8px;
+}
+
+.price {
+    color: #8062b2;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* Nút sản phẩm */
+
+.btn-product {
+    width: 100%;
+    background-color: #eee6f8;
+    color: #70549d;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+}
+
+.btn-product:hover {
+    background-color: #8062b2;
+    color: white;
+}
+
+
+/* =====================================================
+   6. ABOUT HOME
+===================================================== */
+
+.about-home {
+    padding: 70px 0;
+    background-color: #faf8fd;
+}
+
+
+/* Ảnh */
+
+.about-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+/* Tiêu đề nhỏ */
+
+.small-title {
+    color: #8062b2;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* Tiêu đề */
+
+.about-home h2 {
+    font-family: Georgia, serif;
+    color: #503a70;
+    font-size: 35px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   7. FOOTER
+===================================================== */
+
+.footer {
+    background-color: #eee6f8;
+    padding: 45px 0 20px;
+    color: #5d5268;
+}
+
+
+/* Tiêu đề footer */
+
+.footer h4 {
+    color: #503a70;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+/* Đoạn thông tin */
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+/* Icon */
+
+.footer p i {
+    color: #8062b2;
+    margin-right: 7px;
+}
+
+
+/* Social */
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #8062b2;
+    font-size: 22px;
+}
+
+.social-icons a:hover {
+    color: #503a70;
+}
+
+
+/* Copyright */
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #d9ccea;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #81758c;
+}
+
+
+/* =====================================================
+   8. RESPONSIVE - TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    /* Menu */
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .header-icons {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-image {
+        height: 350px;
+        margin-top: 30px;
+    }
+
+}
+
+
+/* =====================================================
+   9. RESPONSIVE - ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 576px) {
+
+    /* Hero */
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-image {
+        height: 280px;
+        border-radius: 12px;
+    }
+
+
+    /* Section */
+
+    .featured-products {
+        padding: 50px 0;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+
+    /* Product */
+
+    .product-card img {
+        height: 170px;
+    }
+
+    .product-info {
+        padding: 12px;
+    }
+
+    .product-info h3 {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+
+    /* About */
+
+    .about-home {
+        padding: 50px 0;
+    }
+
+    .about-image {
+        height: 250px;
+    }
+
+    .about-home h2 {
+        font-size: 28px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+}
+
+/* =====================================================
+   TRANG SẢN PHẨM
+===================================================== */
+
+
+/* =====================================================
+   1. PAGE BANNER
+===================================================== */
+
+.page-banner {
+    background: linear-gradient(
+        90deg,
+        #f4effc,
+        #eee5fa
+    );
+
+    padding: 55px 0;
+}
+
+.page-banner h1 {
+    font-family: Georgia, serif;
+    color: #503a70;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.page-banner p {
+    color: #81758c;
+    margin: 0;
+}
+
+
+/* =====================================================
+   2. PRODUCTS PAGE
+===================================================== */
+
+.products-page {
+    padding: 60px 0 80px;
+}
+
+
+/* =====================================================
+   3. BỘ LỌC DANH MỤC
+===================================================== */
+
+.category-filter {
+    margin-bottom: 40px;
+}
+
+
+/* Nút lọc */
+
+.filter-btn {
+    border: 1px solid #d7c8e8;
+
+    background-color: white;
+
+    color: #70549d;
+
+    border-radius: 25px;
+
+    padding: 8px 20px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Hover */
+
+.filter-btn:hover {
+    background-color: #eee6f8;
+}
+
+
+/* Nút đang được chọn */
+
+.filter-btn.active {
+    background-color: #8062b2;
+
+    color: white;
+
+    border-color: #8062b2;
+}
+
+
+/* =====================================================
+   4. PRODUCT CARD TRANG SẢN PHẨM
+===================================================== */
+
+.products-page .product-card {
+    height: 100%;
+}
+
+
+/* Ảnh */
+
+.products-page .product-card img {
+    width: 100%;
+
+    height: 240px;
+
+    object-fit: cover;
+}
+
+
+/* =====================================================
+   5. PHÂN TRANG
+===================================================== */
+
+.product-pagination {
+    margin-top: 50px;
+}
+
+
+/* Nút phân trang */
+
+.product-pagination .page-link {
+    color: #8062b2;
+
+    border-color: #ddd0eb;
+
+    margin: 0 4px;
+
+    border-radius: 8px;
+}
+
+
+/* Trang hiện tại */
+
+.product-pagination .page-item.active .page-link {
+    background-color: #8062b2;
+
+    border-color: #8062b2;
+
+    color: white;
+}
+
+
+/* Hover */
+
+.product-pagination .page-link:hover {
+    background-color: #eee6f8;
+
+    color: #503a70;
+}
+
+
+/* =====================================================
+   6. RESPONSIVE TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .page-banner {
+        padding: 45px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 34px;
+    }
+
+    .products-page {
+        padding: 50px 0 70px;
+    }
+
+    .products-page .product-card img {
+        height: 220px;
+    }
+
+}
+
+
+/* =====================================================
+   7. RESPONSIVE ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 576px) {
+
+    .page-banner {
+        padding: 35px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 30px;
+    }
+
+    .page-banner p {
+        font-size: 14px;
+    }
+
+
+    /* Bộ lọc */
+
+    .category-filter {
+        margin-bottom: 25px;
+    }
+
+    .filter-btn {
+        font-size: 13px;
+
+        padding: 7px 14px;
+
+        margin: 3px;
+    }
+
+
+    /* Card */
+
+    .products-page .product-card img {
+        height: 170px;
+    }
+
+
+    /* Khoảng cách */
+
+    .products-page {
+        padding: 40px 0 60px;
+    }
+
+
+    /* Phân trang */
+
+    .product-pagination {
+        margin-top: 35px;
+    }
+
+}
+
+/* =====================================================
+   TRANG CHI TIẾT SẢN PHẨM
+===================================================== */
+
+
+/* =====================================================
+   1. BREADCRUMB
+===================================================== */
+
+.breadcrumb-section {
+    background-color: #faf8fd;
+    padding: 15px 0;
+}
+
+.breadcrumb {
+    margin: 0;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #8062b2;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #81758c;
+}
+
+
+/* =====================================================
+   2. PRODUCT DETAIL
+===================================================== */
+
+.product-detail {
+    padding: 60px 0 70px;
+}
+
+
+/* =====================================================
+   3. ẢNH SẢN PHẨM
+===================================================== */
+
+.main-product-image {
+    width: 100%;
+    height: 500px;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    background-color: #f7f3fb;
+}
+
+.main-product-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =====================================================
+   4. ẢNH NHỎ
+===================================================== */
+
+.product-thumbnails {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 15px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    border: 2px solid transparent;
+
+    cursor: pointer;
+}
+
+.thumbnail.active {
+    border-color: #8062b2;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =====================================================
+   5. THÔNG TIN SẢN PHẨM
+===================================================== */
+
+.product-detail-info h1 {
+    font-family: Georgia, serif;
+
+    color: #503a70;
+
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =====================================================
+   6. ĐÁNH GIÁ
+===================================================== */
+
+.product-rating {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #81758c;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+.stars {
+    color: #e6ae35;
+
+    letter-spacing: 2px;
+
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   7. GIÁ
+===================================================== */
+
+.detail-price {
+    color: #8062b2;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   8. MÔ TẢ
+===================================================== */
+
+.detail-description {
+    color: #6e6279;
+
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   9. THÔNG SỐ SẢN PHẨM
+===================================================== */
+
+.product-specifications {
+    padding: 10px 0;
+}
+
+.product-specifications p {
+    color: #62566e;
+
+    margin-bottom: 12px;
+
+    font-size: 14px;
+}
+
+.product-specifications i {
+    color: #8062b2;
+
+    width: 25px;
+
+    display: inline-block;
+}
+
+.product-specifications strong {
+    margin-right: 5px;
+}
+
+
+/* =====================================================
+   10. SỐ LƯỢNG + GIỎ HÀNG
+===================================================== */
+
+.purchase-area {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+
+/* Số lượng */
+
+.quantity {
+    display: flex;
+
+    align-items: center;
+
+    border: 1px solid #ddd0eb;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+}
+
+.quantity button {
+    width: 38px;
+    height: 42px;
+
+    border: none;
+
+    background-color: white;
+
+    color: #8062b2;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.quantity span {
+    width: 35px;
+
+    text-align: center;
+
+    color: #514260;
+}
+
+
+/* Nút thêm giỏ */
+
+.btn-add-cart {
+    background-color: #8062b2;
+
+    color: white;
+
+    border-radius: 25px;
+
+    padding: 11px 25px;
+
+    border: none;
+}
+
+.btn-add-cart:hover {
+    background-color: #684a99;
+
+    color: white;
+}
+
+
+/* =====================================================
+   11. SẢN PHẨM LIÊN QUAN
+===================================================== */
+
+.related-products {
+    background-color: #faf8fd;
+
+    padding: 65px 0 75px;
+}
+
+
+/* =====================================================
+   12. RESPONSIVE TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .product-detail {
+        padding: 50px 0 60px;
+    }
+
+    .main-product-image {
+        height: 450px;
+    }
+
+    .product-detail-info h1 {
+        font-size: 32px;
+    }
+
+}
+
+
+/* =====================================================
+   13. RESPONSIVE ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 576px) {
+
+    /* Breadcrumb */
+
+    .breadcrumb-section {
+        padding: 12px 0;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+
+    /* Product detail */
+
+    .product-detail {
+        padding: 35px 0 50px;
+    }
+
+
+    /* Ảnh */
+
+    .main-product-image {
+        height: 330px;
+
+        border-radius: 12px;
+    }
+
+
+    /* Thumbnail */
+
+    .thumbnail {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    /* Tiêu đề */
+
+    .product-detail-info h1 {
+        font-size: 28px;
+
+        margin-top: 10px;
+    }
+
+
+    /* Giá */
+
+    .detail-price {
+        font-size: 26px;
+    }
+
+
+    /* Purchase */
+
+    .purchase-area {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+
+    .quantity {
+        width: fit-content;
+    }
+
+
+    .btn-add-cart {
+        width: 100%;
+    }
+
+
+    /* Related */
+
+    .related-products {
+        padding: 50px 0 60px;
+    }
+
+}
+
+/* =====================================================
+   TRANG GIỚI THIỆU
+===================================================== */
+
+
+/* =====================================================
+   1. PHẦN CÂU CHUYỆN
+===================================================== */
+
+.about-story {
+    padding: 70px 0;
+}
+
+
+/* =====================================================
+   2. ẢNH CỬA HÀNG
+===================================================== */
+
+.about-story-image {
+    position: relative;
+}
+
+
+/*
+    Tạo một đường viền trang trí
+    phía sau ảnh
+*/
+
+.about-story-image::before {
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid #d8c8e9;
+
+    border-radius: 15px;
+
+    top: 15px;
+    left: 15px;
+
+    z-index: 0;
+}
+
+
+/*
+    Ảnh nằm phía trên đường viền
+*/
+
+.about-story-image img {
+    position: relative;
+
+    z-index: 1;
+
+    width: 100%;
+
+    height: 430px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+
+/* =====================================================
+   3. NỘI DUNG CÂU CHUYỆN
+===================================================== */
+
+.about-story h2 {
+    font-family: Georgia, serif;
+
+    color: #503a70;
+
+    font-size: 38px;
+
+    line-height: 1.3;
+
+    margin-bottom: 25px;
+}
+
+
+.about-story p:not(.small-title) {
+    color: #6e6279;
+
+    line-height: 1.8;
+
+    margin-bottom: 18px;
+}
+
+
+/* =====================================================
+   4. GIÁ TRỊ
+===================================================== */
+
+.our-values {
+    background-color: #faf8fd;
+
+    padding: 70px 0 80px;
+}
+
+
+/* =====================================================
+   5. VALUE CARD
+===================================================== */
+
+.value-card {
+    height: 100%;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px rgba(80, 58, 112, 0.08);
+
+    transition: 0.3s;
+}
+
+
+/*
+    Hiệu ứng khi di chuột
+*/
+
+.value-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 10px 30px rgba(80, 58, 112, 0.14);
+}
+
+
+/* =====================================================
+   6. ICON GIÁ TRỊ
+===================================================== */
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #eee6f8;
+
+    color: #8062b2;
+
+    font-size: 30px;
+}
+
+
+/* =====================================================
+   7. TIÊU ĐỀ CARD
+===================================================== */
+
+.value-card h3 {
+    color: #503a70;
+
+    font-family: Georgia, serif;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =====================================================
+   8. NỘI DUNG CARD
+===================================================== */
+
+.value-card p {
+    color: #81758c;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin: 0;
+}
+
+
+/* =====================================================
+   9. RESPONSIVE TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .about-story {
+        padding: 55px 0;
+    }
+
+
+    .about-story-image img {
+        height: 380px;
+    }
+
+
+    .about-story h2 {
+        font-size: 32px;
+    }
+
+
+    .our-values {
+        padding: 55px 0 65px;
+    }
+
+}
+
+
+/* =====================================================
+   10. RESPONSIVE ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 576px) {
+
+    .about-story {
+        padding: 40px 0 55px;
+    }
+
+
+    /* Ảnh */
+
+    .about-story-image {
+        margin-right: 10px;
+
+        margin-bottom: 15px;
+    }
+
+
+    .about-story-image::before {
+        top: 10px;
+
+        left: 10px;
+    }
+
+
+    .about-story-image img {
+        height: 280px;
+
+        border-radius: 12px;
+    }
+
+
+    /* Nội dung */
+
+    .about-story h2 {
+        font-size: 28px;
+    }
+
+
+    .about-story p:not(.small-title) {
+        font-size: 14px;
+    }
+
+
+    /* Values */
+
+    .our-values {
+        padding: 45px 0 55px;
+    }
+
+
+    .value-card {
+        padding: 30px 20px;
+    }
+
+
+    .value-icon {
+        width: 60px;
+        height: 60px;
+
+        font-size: 25px;
+    }
+
+}
+
+/* =====================================================
+   TRANG LIÊN HỆ
+===================================================== */
+
+
+/* =====================================================
+   1. CONTACT SECTION
+===================================================== */
+
+.contact-section {
+    padding: 70px 0 80px;
+}
+
+
+/* =====================================================
+   2. CONTACT INFO
+===================================================== */
+
+.contact-info h2,
+.contact-form h2 {
+    font-family: Georgia, serif;
+
+    color: #503a70;
+
+    font-size: 36px;
+
+    line-height: 1.3;
+
+    margin-bottom: 20px;
+}
+
+
+.contact-intro {
+    color: #6e6279;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+
+/* =====================================================
+   3. CONTACT ITEM
+===================================================== */
+
+.contact-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    margin-bottom: 22px;
+}
+
+
+/* ICON */
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eee6f8;
+
+    color: #8062b2;
+
+    border-radius: 50%;
+
+    font-size: 19px;
+}
+
+
+/* NỘI DUNG */
+
+.contact-item h4 {
+    color: #503a70;
+
+    font-size: 16px;
+
+    margin: 0 0 5px;
+}
+
+
+.contact-item p {
+    color: #81758c;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =====================================================
+   4. SOCIAL
+===================================================== */
+
+.contact-social {
+    margin-top: 30px;
+}
+
+
+.contact-social h4 {
+    color: #503a70;
+
+    font-size: 17px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =====================================================
+   5. CONTACT FORM
+===================================================== */
+
+.contact-form {
+    background-color: #faf8fd;
+
+    border-radius: 15px;
+
+    padding: 40px;
+}
+
+
+.form-description {
+    color: #81758c;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* =====================================================
+   6. FORM LABEL
+===================================================== */
+
+.form-label {
+    color: #503a70;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   7. INPUT
+===================================================== */
+
+.form-control,
+.form-select {
+    border: 1px solid #ddd0eb;
+
+    border-radius: 8px;
+
+    padding: 11px 14px;
+
+    color: #62566e;
+}
+
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #8062b2;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(128, 98, 178, 0.12);
+}
+
+
+/* PLACEHOLDER */
+
+.form-control::placeholder {
+    color: #b1a7ba;
+
+    font-size: 14px;
+}
+
+
+/* =====================================================
+   8. NÚT GỬI
+===================================================== */
+
+.contact-form .btn-lavender {
+    margin-top: 10px;
+
+    padding: 11px 28px;
+}
+
+
+/* =====================================================
+   9. MAP
+===================================================== */
+
+.map-section {
+    background-color: #faf8fd;
+
+    padding: 65px 0 80px;
+}
+
+
+.map-container {
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(80, 58, 112, 0.08);
+}
+
+
+.map-container iframe {
+    display: block;
+}
+
+
+/* =====================================================
+   10. RESPONSIVE TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .contact-section {
+        padding: 55px 0 65px;
+    }
+
+
+    .contact-info h2,
+    .contact-form h2 {
+        font-size: 32px;
+    }
+
+
+    .contact-form {
+        padding: 35px;
+    }
+
+}
+
+
+/* =====================================================
+   11. RESPONSIVE ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding: 40px 0 55px;
+    }
+
+
+    /* Tiêu đề */
+
+    .contact-info h2,
+    .contact-form h2 {
+        font-size: 28px;
+    }
+
+
+    /* Thông tin */
+
+    .contact-item {
+        margin-bottom: 18px;
+    }
+
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+
+        font-size: 17px;
+    }
+
+
+    /* Form */
+
+    .contact-form {
+        padding: 25px 20px;
+
+        border-radius: 12px;
+    }
+
+
+    /* Map */
+
+    .map-section {
+        padding: 45px 0 55px;
+    }
+
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+}

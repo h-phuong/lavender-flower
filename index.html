@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <!-- ==============================
+         THÔNG TIN CƠ BẢN CỦA WEBSITE
+    =============================== -->
+
+    <!-- Hỗ trợ tiếng Việt -->
+    <meta charset="UTF-8">
+
+    <!-- Giúp website responsive trên điện thoại -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tiêu đề hiển thị trên tab trình duyệt -->
+    <title>Lavender Flower - Hoa & Quà tặng</title>
+
+
+    <!-- ==============================
+         BOOTSTRAP
+    =============================== -->
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+
+    <!-- ==============================
+         BOOTSTRAP ICONS
+    =============================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- ==============================
+         CSS CỦA CHÚNG TA
+    =============================== -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         1. THANH NAVIGATION
+    =================================================== -->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+
+        <div class="container">
+
+            <!-- LOGO -->
+            <a class="navbar-brand" href="index.html">
+
+                <div class="logo">
+
+                    <i class="bi bi-flower1"></i>
+
+                    <div>
+                        <strong>LAVENDER FLOWER</strong>
+                        <small>Hoa & Quà tặng</small>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- NÚT MENU TRÊN ĐIỆN THOẠI -->
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <!-- MENU -->
+
+            <div
+                class="collapse navbar-collapse"
+                id="mainMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Trang chủ -->
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            href="index.html">
+
+                            Trang chủ
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- Sản phẩm -->
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="san-pham.html">
+
+                            Sản phẩm
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- Giới thiệu -->
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="gioi-thieu.html">
+
+                            Giới thiệu
+
+                        </a>
+
+                    </li>
+
+
+                    <!-- Liên hệ -->
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="lien-he.html">
+
+                            Liên hệ
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+
+                <!-- ICON -->
+
+                <div class="header-icons">
+
+                    <i class="bi bi-search"></i>
+
+                    <i class="bi bi-bag"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==================================================
+         2. BANNER / HERO
+    =================================================== -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+
+                <!-- PHẦN CHỮ -->
+
+                <div class="col-lg-6 hero-content">
+
+                    <p class="hero-small-title">
+                        LAVENDER FLOWER
+                    </p>
+
+                    <h1>
+                        Hoa dành cho
+                        <br>
+                        những khoảnh khắc đẹp
+                    </h1>
+
+                    <p class="hero-description">
+
+                        Những bó hoa được thiết kế tinh tế,
+                        gửi gắm yêu thương đến những người
+                        quan trọng trong cuộc sống.
+
+                    </p>
+
+
+                    <!-- NÚT XEM SẢN PHẨM -->
+
+                    <a
+                        href="san-pham.html"
+                        class="btn btn-lavender">
+
+                        Xem sản phẩm
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- PHẦN ẢNH -->
+
+                <div class="col-lg-6">
+
+                    <img
+                        src="images/banner.jpg"
+                        alt="Bó hoa Lavender Flower"
+                        class="img-fluid hero-image">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         3. SẢN PHẨM NỔI BẬT
+    =================================================== -->
+
+    <section class="featured-products">
+
+        <div class="container">
+
+
+            <!-- TIÊU ĐỀ -->
+
+            <div class="section-title">
+
+                <span></span>
+
+                <h2>Sản phẩm nổi bật</h2>
+
+                <span></span>
+
+            </div>
+
+
+            <p class="section-description">
+
+                Những mẫu hoa được khách hàng yêu thích
+
+            </p>
+
+
+
+            <!-- DANH SÁCH SẢN PHẨM -->
+
+            <div class="row g-4">
+
+
+                <!-- =========================
+                     SẢN PHẨM 1
+                ========================== -->
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="product-card">
+
+
+                        <!-- ẢNH -->
+
+                        <img
+                            src="images/hoa-hong.jpg"
+                            alt="Bó hồng pastel">
+
+
+                        <!-- THÔNG TIN -->
+
+                        <div class="product-info">
+
+                            <h3>
+                                Bó hồng pastel
+                            </h3>
+
+                            <p class="price">
+                                250.000đ
+                            </p>
+
+
+                            <!-- NÚT -->
+
+                            <a
+                                href="chi-tiet.html"
+                                class="btn btn-product">
+
+                                Xem chi tiết
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     SẢN PHẨM 2
+                ========================== -->
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <img
+                            src="images/hoa-tulip.jpg"
+                            alt="Hoa tulip">
+
+                        <div class="product-info">
+
+                            <h3>
+                              Bó hoa tulip
+                          </h3>
+
+                            <p class="price">
+                                300.000đ
+                            </p>
+
+                            <a
+                                href="chi-tiet.html"
+                                class="btn btn-product">
+
+                                Xem chi tiết
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     SẢN PHẨM 3
+                ========================== -->
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <img
+                            src="images/hoa-huong-duong.jpg"
+                            alt="Hoa hướng dương">
+
+                        <div class="product-info">
+
+                            <h3>
+                                Bó hướng dương
+                            </h3>
+
+                            <p class="price">
+                                280.000đ
+                            </p>
+
+                            <a
+                                href="chi-tiet.html"
+                                class="btn btn-product">
+
+                                Xem chi tiết
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     SẢN PHẨM 4
+                ========================== -->
+
+                <div class="col-6 col-lg-3">
+
+                    <div class="product-card">
+
+                        <img
+                            src="images/hoa-baby.jpg"
+                            alt="Hoa baby">
+
+                        <div class="product-info">
+
+                            <h3>
+                                Bó hoa baby
+                            </h3>
+
+                            <p class="price">
+                                220.000đ
+                            </p>
+
+                            <a
+                                href="chi-tiet.html"
+                                class="btn btn-product">
+
+                                Xem chi tiết
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         4. GIỚI THIỆU NGẮN
+    =================================================== -->
+
+    <section class="about-home">
+
+        <div class="container">
+
+            <div class="row align-items-center g-4">
+
+
+                <!-- ẢNH CỬA HÀNG -->
+
+                <div class="col-lg-6">
+
+                    <img
+                        src="images/cua-hang.jpg"
+                        alt="Cửa hàng Lavender Flower"
+                        class="img-fluid about-image">
+
+                </div>
+
+
+
+                <!-- NỘI DUNG -->
+
+                <div class="col-lg-6">
+
+                    <p class="small-title">
+                        VỀ CHÚNG TÔI
+                    </p>
+
+                    <h2>
+                        Mỗi bó hoa là
+                        <br>
+                        một lời yêu thương
+                    </h2>
+
+                    <p>
+
+                        Lavender Flower là tiệm hoa chuyên cung cấp
+                        các loại hoa tươi, hoa nhập khẩu và những
+                        bó hoa được thiết kế theo yêu cầu.
+
+                    </p>
+
+                    <p>
+
+                        Chúng tôi luôn mong muốn mang đến những
+                        sản phẩm đẹp và dịch vụ tận tâm nhất
+                        cho khách hàng.
+
+                    </p>
+
+
+                    <a
+                        href="gioi-thieu.html"
+                        class="btn btn-lavender">
+
+                        Tìm hiểu thêm
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         5. FOOTER
+    =================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+
+                <!-- LOGO -->
+
+                <div class="col-lg-4">
+
+                    <div class="logo footer-logo">
+
+                        <i class="bi bi-flower1"></i>
+
+                        <div>
+
+                            <strong>
+                                LAVENDER FLOWER
+                            </strong>
+
+                            <small>
+                                Hoa & Quà tặng
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- THÔNG TIN LIÊN HỆ -->
+
+                <div class="col-lg-4">
+
+                    <h4>Liên hệ</h4>
+
+                    <p>
+                        <i class="bi bi-geo-alt"></i>
+                        123 Nguyễn Văn Cừ, Quận 1, TP.HCM
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone"></i>
+                        0123 456 789
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope"></i>
+                        lavender@flower.vn
+                    </p>
+
+                </div>
+
+
+
+                <!-- MẠNG XÃ HỘI -->
+
+                <div class="col-lg-4">
+
+                    <h4>
+                        Theo dõi chúng tôi
+                    </h4>
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+
+            <div class="copyright">
+
+                © 2026 Lavender Flower.
+                All rights reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT CỦA BOOTSTRAP
+         Dùng để menu mobile hoạt động
+    =================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+</body>
+
+</html>
